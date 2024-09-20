@@ -1,0 +1,112 @@
+.bg-call{
+  position: relative;
+}
+.bg-call img{
+width: 100%;
+
+
+
+}
+
+.bg-call .content-text{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 4vw ;
+  color: #F7941E;
+  font-weight: bold;
+}
+#work-hard{
+  padding-top: 40%;
+  color: #1C75BC;
+  font-size: 4rem;
+}
+
+/* == */
+.button {
+  border-radius: 4px;
+  background-color: #1C75BC;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* ===> Like and dislike  */
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+
+
+.du{
+
+ 
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

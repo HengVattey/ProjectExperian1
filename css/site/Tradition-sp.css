@@ -1,0 +1,357 @@
+html {
+  scroll-behavior: smooth;
+}
+.bg-call{
+  position: relative;
+}
+.bg-call img{
+
+width: 100%;
+
+
+
+
+}
+/* .ok{
+background-image: url(../IMAGE/traditon.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 30vh;
+
+
+
+} */
+
+.bg-call .content-text{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 4vw ;
+  color:white;
+  font-weight: bold;
+
+
+}
+#plast{
+  /* font-size: 2.3vw; */
+  font-weight: bold;
+  padding-top: 30%;
+
+
+}
+
+/* ==========>  */
+@media (max-width: 575.98px) { 
+
+  /* #plast{
+    font-size: 8vw;
+    font-weight: bold;
+    padding-top: 10%;
+    color: #F7941E;
+  
+  } */
+  
+ }
+
+ @media (max-width: 767.98px) { 
+
+  /* #plast{
+    font-size: 8vw;
+    font-weight: bold;
+    padding-top: 10%;
+    color: #F7941E;
+  
+  } */
+
+
+  
+  }
+
+  @media (max-width: 991.98px) { 
+    /* #plast{
+      font-size: 8vw;
+      font-weight: bold;
+      padding-top: 10%;
+      color: #F7941E;
+    
+    } */
+  }
+
+  /* ===== */
+  * {
+    box-sizing: border-box;
+  }
+
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color:#dadbdc;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .containerr {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .containerr::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    /* background-color:#1C75BC;
+    border: 4px solid #1C75BC; */
+    top: 15px;
+    border-radius: 10%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+    left: 31px;
+    }
+    
+    /* Full-width containers */
+    .containerr {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    /* Make sure that all arrows are pointing leftwards */
+    .containerr::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+    /* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
+    }
+  }
+  
+  
+.section-168 {
+  height: 30vh;
+  background-color: #c9c9c9;
+  display: grid;
+  place-items: center;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  backdrop-filter: blur(7.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+}
+
+.slider-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  animation: scrolling 20s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(80%);
+  }
+
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+.slider-items img {
+  width: 12%;
+  margin: 20px;
+}
+
+
+/* ===> card  */
+
+/* net2_card_sextion*/
+.net2_card_section {
+  text-align: center;
+}
+
+.net2_card_section .heading_container {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.net2_card_section .net2_card_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 35px 0;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.net2_card_section .net2_card_container .box {
+  margin: 25px 1%;
+  -ms-flex-preferred-size: 31%;
+  flex-basis: 31%;
+  padding: 35px 25px 25px;
+  border-radius: 15px;
+  border-top: 15px solid transparent;
+  overflow: hidden;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  position: relative;
+  box-shadow: 0px 3px 25px 3px #ddd;
+  overflow: hidden;
+}
+
+.net2_card_section .net2_card_container .box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 125px;
+}
+
+.net2_card_section .net2_card_container .box .img-box img {
+  width: 90px;
+}
+
+.net2_card_section .net2_card_container .box .detail-box {
+  margin-top: 25px;
+  color: #555;
+}
+
+.net2_card_section .net2_card_container .box .detail-box h5 {
+  color: #F7941E;
+  font-weight: 600;
+  position: relative;
+}
+.net2_card_section .net2_card_container .box{
+  /* border-top: 15px solid #F7941E; */
+}
+
+.net2_card_section .net2_card_container .box:hover, .net2_card_section .net2_card_container .box.active {
+  /* border-top: 15px solid #1C75BC; */
+}
+
+
+
+
+
+/* responsive net2_card_section*/
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+
+  .net2_card_section .net2_card_container .box {
+      -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .net2_card_section .net2_card_container .box {
+      flex-basis: 98%;
+  }
+}
+
+@media (min-width: 1200px) {
+.container {
+  max-width: 1170px;
+}
+}

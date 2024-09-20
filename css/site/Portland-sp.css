@@ -1,0 +1,332 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+
+  border: none;
+
+}
+h2{
+  font-size: 36px;
+}
+p{
+  font-size: 16px;
+}
+.line{
+  width: 100px;
+  background-color: #f7941E;
+  height: 3px;
+  margin: 5px auto;
+}
+.line-hd{
+  width: 30%;
+  height: 1px;
+  background-color: #f7941E;
+  margin: 10px 20px;
+}
+.box1{
+  background-image: url(/images/bg-esi1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  height:550px;
+  margin-top: 3px;
+}
+.box1 .content{
+  display: block;
+  align-items: center;
+  text-align: start;
+  justify-content: center;
+  background-color: rgba(187, 184, 184, 0.14);
+  height: 100%;
+  padding-top: 10%;
+  margin: auto 0px;
+}
+.box1 .content h2{
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  padding-left: 20px; 
+  align-items: start;
+}
+.box1 .content h2 span{
+   color: rgb(234, 154, 5);
+   font-weight: 600;
+}
+.box1 .content h4{
+  color: rgb(252, 248, 248);
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 22px;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+.box1 .content h4 span a{
+  color: rgb(234, 154, 5);
+  font-weight:600;
+  text-decoration: none;
+}
+.box1 .content h4 span a:hover{
+  color: rgb(255, 132, 0);
+}
+/* ============button========== */
+.box1 .content button{
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f7941E;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  margin-left: 20px;
+  transition-property: color;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  border: none;
+}
+.box1 .content button::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius:10px;
+  background: #1C75Bc;
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.box1 .content button:hover::before , .button:focus::before, .button:active::before{
+   transform: scaleY(1);
+   transition-timing-function: cubic-bezier(0.52,1.64,.0.37,0.66);
+}
+
+
+.container h2{
+ margin-top: 30px;
+ text-align: center;
+ color: #1C75Bc;
+}
+.box2{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+#sub-box2{
+  font-size:15px;
+  letter-spacing: 1px;
+}
+.box2-img {
+  width: 50%;
+}
+.box2-img img{
+  width: 100%;
+}
+.box2-sub{
+  width: 50%;
+  margin-top: 50px;
+}
+.container-md{
+  text-align: center;
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-md p span{
+  color: #f7941E;
+}
+.Box3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Box3 .box3-sub{
+  width: 50%;
+  margin-top: 20px;
+}
+.Box3 .box3-sub a button{
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding: 13px 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f7941E;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  margin-left: 20px;
+  transition-property: color;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+.Box3 .box3-sub a button::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius:10px;
+  background: #1C75Bc;
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.Box3 .box3-sub a button:hover::before , .button:focus::before, .button:active::before{
+   transform: scaleY(1);
+   transition-timing-function: cubic-bezier(0.52,1.64,.0.37,0.66);
+}
+#box3-2{
+  margin-top: 30px;
+}
+#box3-2 .box3-vd{
+  padding-top:50px;
+}
+.card{
+  display: none;
+}
+
+/* Responsive */
+@media screen and (width<1200px){
+  #box3-2 .box3-vd iframe{
+    width:400px;
+    height: 400px;
+  }
+  #box3-2,.Box3{
+    justify-content:space-between;
+    width: 100%;
+    gap: 20px;
+  }
+  #box3-2 .box3-sub{
+    width: 90%;
+  }
+  #box3-2 .box3-sub img{
+    width: 80%;
+  }
+  .Box3 .box3-vd iframe{
+    width: 450px;
+    height: 450px;
+  }
+  .Box3 .box3-sub{
+    width: 90%;
+  }
+}
+@media screen and (width<1100px){
+  .box1 .content h2{
+    font-size: 36px;
+  }
+  .box1 .content h4{
+   font-size: 20px;
+  }
+  .box1 .content a button{
+    padding: 10px 20px;
+  }
+  #box3-2 .box3-vd iframe{
+    width:380px;
+    height: 350px;
+  }
+  #box3-2,.Box3{
+    justify-content:space-between;
+    width: 100%;
+    gap: 20px;
+  }
+  #box3-2 .box3-sub{
+    width: 90%;
+  }
+  #box3-2 .box3-sub img{
+    width: 60%;
+  }
+  .Box3 .box3-vd iframe{
+    width: 400px;
+    height: 450px;
+  }
+  .Box3 .box3-sub{
+    width: 80%;
+  }
+}
+@media screen and (width<1000px){
+  .box1 .content{
+     margin: auto;
+     display: block;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+  }
+  .line-hd{
+    margin:10px auto;
+  }
+  .box1 .content h2{
+    font-size: 33px;
+    padding-top:150px;
+  }
+  .box1 .content h4{
+   margin: auto;
+  }
+  .box1 .content button{
+    padding: 10px 20px;
+    margin:15px auto;
+  }
+  .box1 .content a button{
+    font-size: 10px;
+  }
+  .Box3 .box3-vd iframe, #box3-2 .box3-vd iframe{
+    width:100%;
+    height: 350px;
+  }
+
+  #box3-2,.Box3{
+    display: block;
+    justify-content:center;
+    width: 100%;
+    gap: 20px;
+  }
+  #box3-2 .box3-sub{
+    width: 100%;
+  }
+  #box3-2 .box3-sub img{
+    width: 90%;
+  }
+  .Box3 .box3-sub{
+    width: 100%;
+  }
+  .container .box2{
+    display: none;
+  }
+  .card{
+    display: block;
+  }
+}
+@media screen and (width<900px){
+  .Box3 .box3-vd iframe,#box3-2 .box3-vd iframe{
+    width:90%;
+    height: 300px;
+  }
+}
+@media screen and (width<900px){
+  .box1 .content h2{
+    font-size: 33px;
+    padding-top:100px;
+  }
+}
+@media screen and (width<600px){
+ .line-hd{
+  width: 70%;
+ }
+}

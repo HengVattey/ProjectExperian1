@@ -1,0 +1,125 @@
+
+/* net2_card_sextion*/
+.net2_card_section {
+    text-align: center;
+}
+  
+.net2_card_section .heading_container {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+  
+.net2_card_section .net2_card_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 35px 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+  
+.net2_card_section .net2_card_container .box {
+    margin: 25px 1%;
+    -ms-flex-preferred-size: 31%;
+    flex-basis: 31%;
+    padding: 35px 25px 25px;
+    border-radius: 15px;
+    border-top: 15px solid transparent;
+    overflow: hidden;
+    -webkit-transition: all .1s;
+    transition: all .1s;
+    position: relative;
+    box-shadow: 0px 3px 25px 3px #ddd;
+    overflow: hidden;
+}
+
+.net2_card_section .net2_card_container .box .img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 125px;
+}
+
+.net2_card_section .net2_card_container .box .img-box img {
+    width: 90px;
+}
+
+.net2_card_section .net2_card_container .box .detail-box {
+    margin-top: 25px;
+    color: #555;
+}
+
+.net2_card_section .net2_card_container .box .detail-box h5 {
+    color: #F7941E;
+    font-weight: 600;
+    position: relative;
+}
+.net2_card_section .net2_card_container .box{
+    border-top: 15px solid #F7941E;
+}
+
+.net2_card_section .net2_card_container .box:hover, .net2_card_section .net2_card_container .box.active {
+    border-top: 15px solid #1C75BC;
+}
+.img-box img {
+    width: 100%;
+}
+
+
+
+
+
+/* responsive net2_card_section*/
+
+
+@media (max-width: 320px) {
+    .pic-net img {
+        width: 180px;
+    }
+}
+@media (max-width: 375px) {
+    .pic-net img {
+        width: 220px;
+    }
+}
+@media (max-width: 425px) {
+    .pic-net img {
+        width: 250px;
+    }
+}
+@media (max-width: 768px) {
+    .pic-net img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .net2_card_section .net2_card_container .box {
+        -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
+    }
+}
+
+@media (max-width: 768px) {
+    .net2_card_section .net2_card_container .box {
+        flex-basis: 98%;
+    }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+

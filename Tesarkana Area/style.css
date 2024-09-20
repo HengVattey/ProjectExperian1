@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+element.style {
+  background-image: url(/img/banner.jpg);
+}
+.single-page-title-area {
+  padding: 100px 0;
+  margin-top: -1px;
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 100%;
+  height: 500px;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+user agent stylesheet section {
+  display: block;
+  unicode-bidi: isolate;
+}
+.auto-container {
+  position: static;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #777777;
+  line-height: 1.9em;
+  font-weight: 400;
+  overflow-x: hidden;
+  margin: auto;
+  background: #fff;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+@media only screen and (max-width: 767px) {
+  .single-page-title {
+    text-align: center;
+  }
+}
+.single-page-title h6 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.h6,
+h6 {
+  font-size: 1rem;
+}
+.single-page-title h2 {
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+@media only screen and (max-width: 767px) {
+  .single-page-title-area .breadcrumb {
+    right: auto;
+    left: 34%;
+  }
+}
+.single-page-title-area .breadcrumb {
+  background-color: transparent;
+  margin: 20px 0 0;
+  position: absolute;
+  right: 5px;
+}
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.btn-banner {
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-weight: 520;
+}
+
+.btn-banner:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.single-page-title span {
+  position: relative;
+  background-color: #fff;
+  height: 2px;
+  width: 55%;
+  display: inline-block;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 767px) {
+  .single-page-title {
+    text-align: center;
+  }
+}
+.single-page-title-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+
+  opacity: 0.5;
+  z-index: -1;
+}
+/* end this section*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #777777;
+  line-height: 1.9em;
+  font-weight: 400;
+  overflow-x: hidden;
+  margin: auto;
+  background: #fff;
+}
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+.section-padding {
+  padding: 100px 0;
+  position: relative;
+  float: left;
+  width: 100%;
+  overflow-x: hidden;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+.image-hover-style-one-wrap {
+  position: relative;
+  -webkit-transition: all 1.5s ease 0.1s;
+  -moz-transition: all 1.5s ease 0.1s;
+  -ms-transition: all 1.5s ease 0.1s;
+  -o-transition: all 1.5s ease 0.1s;
+  transition: all 1.5s ease 0.1s;
+}
+.section-title {
+  margin-bottom: 80px;
+}
+.section-title h2 {
+  color: #1c75bc;
+  font-size: 30px;
+  margin: 0;
+  text-transform: capitalize;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.section-title h2 span {
+  font-weight: 400;
+  color: #f79623;
+}
+.section-title span.line {
+  width: 28%;
+  font-size: 28px;
+  display: inline-block;
+  position: relative;
+  margin: 21px auto 18px;
+}
+.section-title span.line:before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 70px;
+  background-color: #f79623;
+  top: -2px;
+  border-radius: 30px;
+  left: 50%;
+  margin-left: -28px;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .section-title p {
+    width: 100%;
+  }
+}
+.section-title p {
+  margin: auto;
+  padding: 0 20px;
+  width: 65%;
+  position: relative;
+}
+p {
+  line-height: 26px;
+  margin-bottom: 0;
+}
+.no-padding {
+  padding: 0;
+}
+.image-hover-style-one-wrap {
+  position: relative;
+  -webkit-transition: all 1.5s ease 0.1s;
+  -moz-transition: all 1.5s ease 0.1s;
+  -ms-transition: all 1.5s ease 0.1s;
+  -o-transition: all 1.5s ease 0.1s;
+  transition: all 1.5s ease 0.1s;
+}
+.image-hover-style-one-wrap:before {
+  border-top: 2px solid #ffc300;
+  border-bottom: 2px solid #ffc300;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+.image-hover-style-one-wrap:before,
+.image-hover-style-one-wrap:after {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  bottom: 40px;
+  left: 40px;
+  content: "";
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 0.75s, -webkit-transform 0.35s;
+  transition: opacity 0.75s, transform 0.35s;
+}
+.image-hover-style-one {
+  position: relative;
+  margin-bottom: 25px;
+}
+.image-hover-style-one-wrap:after {
+  border-right: 2px solid #ffc300;
+  border-left: 2px solid #ffc300;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+.image-hover-style-one-wrap:before,
+.image-hover-style-one-wrap:after {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  left: 50px;
+  content: "";
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 0.75s, -webkit-transform 0.35s;
+  transition: opacity 0.75s, transform 0.35s;
+}
+.no-padding {
+  padding: 0;
+}
+.promo-box-style-one {
+  padding: 25px 60px;
+  border: 1px solid #e1e1e1;
+  background: #ffffff;
+  margin: 60px 0 0 -35px;
+}
+.promo-box-style-one h6 {
+  color: #f79623;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.promo-box-style-one h2 {
+  font-size: 30px;
+  margin: 25px 0;
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+p {
+  line-height: 26px;
+  margin-bottom: 0;
+}
+h4 {
+  color: #1c75bc;
+}

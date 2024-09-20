@@ -1,0 +1,120 @@
+/*banner_section*/
+.banner_section .row {
+    padding: 5rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.banner_section .img-box img {
+    width: 100%;
+}
+.heading{
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0 auto .35em;
+    text-transform: uppercase;
+}
+.detail-box .point_text h3{
+    color: #F7941E;
+}
+.detail-box .point_text p{
+    text-align: justify;
+}
+.bg{
+    background-color: #f5eed0;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+/*responsive banner_section*/
+
+@media (max-width: 320px) {
+    .pic-net img {
+        width: 100px;
+    }
+}
+@media (max-width: 375px) {
+    .pic-net img {
+        width: 220px;
+    }
+}
+@media (max-width: 425px) {
+    .pic-net img {
+        width: 250px;
+    }
+}
+@media (max-width: 768px) {
+    .pic-net img {
+        width: 300px;
+    }
+}
+
+
+
+
+/* point Section */
+.point {
+    background: var(--dark-color);
+    color: var(--white-color); 
+    padding: 60px 20px 120px;
+}
+
+.point .service_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section_container .point_items img {
+    width: 100%;
+}
+
+.section_container .point_items {
+    width: calc(100% / 3 - 120px);
+}
+
+.point_items .point_text {
+    text-align: centej;
+}
+
+.point_items .point_text h3 {
+    margin: 12px 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+.services_items .services_text p {
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+/* Responsive Media Query code for max-width: 1024px */
+
+@media screen and (max-width: 1024px) {
+    .point .service_container {
+        gap: 50px;
+    }
+
+    .section_container .point_items {
+        width: calc(100% / 2 - 50px);
+    }
+}
+
+/* Responsive Media Query code for max-width: 576px */
+@media screen and (max-width: 576px) {
+    .point .service_container,
+    .main_us .main_container {
+        gap: 70px;
+    }
+
+    .section_container .point_items img {
+        max-width: 80%;
+    }
+}

@@ -1,0 +1,270 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* page 1 */
+
+.nec-title span {
+  color: #f7941e;
+}
+
+strong {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  color: #f7941e;
+}
+.text-justify {
+  text-align: justify;
+}
+/*show product*/
+
+.facts {
+  background: linear-gradient(rgb(223, 216, 209), rgb(158, 169, 178)),
+    url("../../images/images-vtn/backgrouns/backgroun-product.png");
+
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
+  padding: 10px; /* Optional: add some padding */
+}
+
+.fw-semi-bold {
+  font-weight: 500 !important;
+}
+.rounded {
+  border-radius: 8px !important;
+}
+.py-1 {
+  padding-top: 0.25rem !important;
+  padding-left: 1rem !important;
+}
+.boder {
+  border: 1px solid #dfdfdf !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.bg-futter {
+  background: url("../../images/images-vtn/backgrouns/114142880.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
+
+  height: 500px;
+}
+.bg-nec-futter {
+  background: url("../../images/images-vtn/backgrouns/278943784\ \(1\).jpg");
+
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
+  padding: 20px; /* Optional: add some padding */
+  height: 500px;
+}
+.container-panasonic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background-image-panasonic {
+  margin-top: 100px;
+  background-image: url("../../images/images-vtn/backgrouns/panasonic-logo_2\ \(1\)\ \(3\).png");
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 577px;
+  height: 289px;
+
+  align-items: center;
+  justify-content: center;
+}
+.bg-esi-header {
+  background: url("../../images/images-vtn/backgrouns/esi-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
+  padding: 20px; /* Optional: add some padding */
+  height: 500px;
+  margin: 0 !important;
+}
+.ytp-cued {
+  background-image: url("../../images/images-vtn/backgrouns/backgroun-product.png");
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
+  padding: 20px; /* Optional: add some padding */
+  height: 100%;
+  margin: 0 !important;
+}
+
+.py-1 {
+  color: #f7941e;
+}
+.mt-5 {
+  margin-top: 10rem !important;
+}
+/* page2 */
+.btn {
+  transition: 0.5s;
+  font-weight: 500;
+}
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.px-5 {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.mt-3 {
+  margin-top: 1rem !important;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* page 1 */
+
+/* .nec-title span {
+  color: #f7941e;
+}
+
+strong {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  color: #f7941e;
+} */
+.text-justify {
+  text-align: justify;
+}
+h2 {
+  color: #f7941e !important;
+}
+/*show product*/
+
+.facts {
+
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
+  padding: 20px; /* Optional: add some padding */
+}
+
+.fw-semi-bold {
+  font-weight: 500 !important;
+}
+.rounded {
+  border-radius: 8px !important;
+}
+.py-1 {
+  padding-top: 0.25rem !important;
+  padding-left: 1rem !important;
+}
+.boder {
+  border: 1px solid #dfdfdf !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+p {
+  display: block;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  unicode-range: isolate;
+  font-size: 16px;
+}
+/* span {
+  color: #1c75bc;
+  font-weight: bold;
+} */
+.bg-futter {
+  background: url("../../images/images-vtn/backgrouns/114142880.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
+
+  height: 500px;
+}
+.bg-nec-futter {
+  background: url("../../images/images-vtn/backgrouns/278943784\ \(1\).jpg");
+
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
+  padding: 20px; /* Optional: add some padding */
+  height: 500px;
+}
+.container-panasonic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background-image-panasonic {
+  margin-top: 100px;
+  background-image: url("../../images/images-vtn/backgrouns/panasonic-logo_2\ \(1\)\ \(3\).png");
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 577px;
+  height: 289px;
+
+  align-items: center;
+  justify-content: center;
+}
+.bg-esi-header {
+  background: url("../../images/images-vtn/backgrouns/esi-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
+  padding: 20px; /* Optional: add some padding */
+  height: 500px;
+  margin: 0 !important;
+}
+.ytp-cued {
+  background-image: url("../../images/images-vtn/backgrouns/backgroun-product.png");
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is readable */
+  padding: 20px; /* Optional: add some padding */
+  height: 100%;
+  margin: 0 !important;
+}
+
+/* .py-1 {
+  color: #f7941e;
+} */
+.mt-5 {
+  margin-top: 10rem !important;
+}
+/* page2 */
+/* .btn {
+  transition: 0.5s;
+  font-weight: 500;
+}
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.px-5 {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.mt-3 {
+  margin-top: 1rem !important;
+} */

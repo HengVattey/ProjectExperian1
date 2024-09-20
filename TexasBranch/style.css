@@ -1,0 +1,152 @@
+.section-padding {
+  padding: 100px 0;
+  position: relative;
+  float: left;
+  width: 100%;
+  overflow-x: hidden;
+}
+.section-title h3 {
+  color: #1c75bc;
+  font-size: 30px;
+  margin: 0;
+  text-transform: capitalize;
+  position: relative;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .section-title p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .single-page-title {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .single-page-title-area .breadcrumb {
+    right: auto;
+    left: 34%;
+  }
+}
+.section-title h3 span {
+  font-weight: 400;
+  color: #f79623;
+}
+.section-title span.line {
+  background-color: #ddd;
+  height: 1px;
+  width: 28%;
+  font-size: 28px;
+  display: inline-block;
+  position: relative;
+  margin: 21px auto 18px;
+}
+.section-title span.line:before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 50px;
+  background-color: #f79623;
+  top: -2px;
+  border-radius: 30px;
+  left: 50%;
+  margin-left: -28px;
+}
+/*end this section*==============================================*/
+
+.section-md,
+.section-lg,
+.section-xl {
+  padding: 60px 0;
+}
+
+.bg-default {
+  background-color: #fff;
+}
+html .row-50 {
+  margin-bottom: -50px;
+}
+html .row-50 > * {
+  margin-bottom: 50px;
+}
+h4,
+.heading-4 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #455;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #455;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.heading-decorated::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 2px;
+  width: 35px;
+  margin-top: 15px;
+  background: #f79623;
+  margin-left: 18px;
+  will-change: transform, opacity;
+}
+* + .blurb-minimal {
+  margin-top: 40px;
+}
+.blurb-minimal,
+.blurb-minimal .unit-body > p:last-of-type,
+.blurb-minimal .icon {
+  transition: 0.33s all ease;
+}
+.blurb-minimal {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+html .row-50 > * {
+  margin-bottom: 50px;
+}
+figure {
+  margin-bottom: 0;
+}
+figure img {
+  display: block;
+  width: 100%;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.btn-quote {
+  background-color: #ffff;
+  color: #555;
+  border: 1px solid #f79623;
+  font-size: 18px;
+  height: 40px;
+  font-weight: 500;
+  width: auto;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.btn-quote:hover {
+  background-color: #f79623;
+  color: white;
+}

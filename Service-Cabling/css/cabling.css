@@ -1,0 +1,363 @@
+/* 
+#F7941E
+#1c75bc 
+*/
+@import url(./carousel.css);
+@import url(./carousel2.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: #fff;
+  scroll-behavior: smooth;
+}
+
+.single-page-title-area {
+  padding: 100px 0;
+  margin-top: -1px;
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 100%;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+user agent stylesheet section {
+  display: block;
+  unicode-bidi: isolate;
+}
+.auto-container {
+  position: static;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+body {
+  font-size: 16px;
+  color: #777777;
+  line-height: 1.9em;
+  font-weight: 400;
+  overflow-x: hidden;
+  margin: auto;
+  background: #fff;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  font-weight: 700;
+}
+.h6,
+h6 {
+  font-size: 1rem;
+}
+.single-page-title h2 {
+  color: #f7941e;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+@media only screen and (max-width: 767px) {
+  .single-page-title-area .breadcrumb {
+    right: auto;
+    left: 34%;
+  }
+}
+.single-page-title-area .breadcrumb {
+  background-color: transparent;
+  margin: 20px 0 0;
+  position: absolute;
+  right: 5px;
+}
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.btn-banner {
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgb(255, 255, 255);
+  font-weight: 520;
+}
+
+.btn-banner:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.single-page-title span {
+  position: relative;
+  background-color: #fff;
+  height: 2px;
+  width: 55%;
+  display: inline-block;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 767px) {
+  .single-page-title {
+    text-align: center;
+  }
+}
+.single-page-title-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #000;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.background {
+  background: url(../img/background.jpg) no-repeat center;
+  background-size: cover;
+  height: 350px;
+  /* object-fit: cover; */
+  margin-top: 20px;
+  flex-wrap: wrap;
+  align-content: center;
+  position: relative;
+}
+.background::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 0;
+}
+
+.container-main {
+  padding: 30px;
+  width: 90%;
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.caption-title {
+  width: 700px;
+  min-width: 300px;
+  text-transform: capitalize;
+}
+.caption-title span {
+  color: #f7941e;
+}
+
+.image img {
+  max-width: 100%;
+  width: 400px;
+}
+.caption-title .call-number {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 0.5rem;
+}
+.caption-title {
+  margin: 10px;
+}
+.caption-title h3 {
+  font-size: 2rem;
+}
+.call-btn {
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  background: #f7941e;
+  border: none;
+  transition: all 0.3s ease;
+}
+.call-btn:hover {
+  background-color: #1c75bc;
+  color: white;
+}
+.info {
+  padding: 20px;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-content {
+  width: 1000px;
+}
+
+.info-content .para {
+  color: #555555;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* service menu */
+.service-menu {
+  padding: 1.5rem;
+  min-height: 100vh;
+  display: grid;
+  position: relative;
+}
+.service-title {
+  font-size: 20px;
+  text-align: center;
+}
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  grid-gap: 1.5rem;
+  align-items: center;
+}
+.box {
+  overflow: hidden;
+  position: relative;
+  margin-top: 4rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f5e4dd;
+  padding: 10px;
+  border-radius: 0.8rem;
+  transition: 0.3s ease;
+}
+.container-service {
+  width: 70%;
+  justify-content: center;
+}
+
+.box:hover {
+  transform: scale(1.01);
+}
+.image {
+  width: 210px;
+  height: 220px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.box h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 4px 0 10px;
+  color: #555;
+}
+.hightlight {
+  height: auto;
+  padding: 20px;
+}
+.hightlight-container {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.animation-image {
+  align-items: center;
+  /* border: 2px solid; */
+  position: relative;
+}
+.animation-image img {
+  left: 40%;
+  animation: updown 3s ease infinite;
+}
+@keyframes updown {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.info-content.first h2 span {
+  color: green;
+}
+
+.click-here-btn {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 0.4rem;
+  left: 30%;
+  top: 70%;
+  margin-top: 15px;
+  font-size: 15px;
+  background-color: #f7941e;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.click-here-btn:hover {
+  transform: scale(1.03);
+}
+/* Responsive */
+@media (max-width: 1560px) {
+}
+@media (max-width: 1140px) {
+  .service-menu {
+    padding: 50px 8%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .single-page-title {
+    text-align: center;
+  }
+}
+.single-page-title h6 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+@media (max-width: 720px) {
+  .info .info-content .first {
+    font-size: 20px;
+  }
+  .image-map {
+    display: none;
+  }
+  .service-menu {
+    padding: 100px 7%;
+  }
+}
+@media (max-width: 574px) {
+}

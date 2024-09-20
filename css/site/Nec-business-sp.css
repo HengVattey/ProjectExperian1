@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2{
+  font-size: 36px;
+}
+p{
+  font-size: 16px;
+}
+.content{
+  background-color: #f6f8f9;
+}
+.box1{
+   display: block;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.box1 h2{
+ padding-top: 30px;
+ color: #1C75BC;
+}
+.box1-img{
+  transition: all 10s ease-in-out;
+ 
+}
+/* .box1-img img:hover{
+  transform: scale(0.9);
+  overflow: hidden;
+} */
+.line{
+  background-color:#F7941E;
+  width: 100px;
+  height: 3px;
+  margin: 3px auto;
+}
+.box2{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  background-image: url(/images/Necwater.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.box2 h2{
+  color: #fff;
+  padding-top: 30px;
+  opacity: 0.9;
+}
+.box2 h5{
+  color: whitesmoke;
+  padding-top: 30px;
+  opacity: 0.8;
+}
+.box2 p{
+  color: gainsboro;
+  opacity: 0.8;
+}
+.col img{
+  width: 100%;
+}
+.col{
+  border: 1px solid gray;
+  margin: 40px 40px;
+}
+.small-box2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box{
+  border: 1px solid gray;
+  margin: 20px 20px;
+}
+.icon-box2{
+  width: 60px;
+  height: 60px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.icon-box2 i{
+  color: white;
+  align-items: center;
+  margin:15px auto;
+  font-size: 30px;
+}
+.container .row .col:hover{
+  cursor: pointer;
+  /* box-shadow: 0px 0px 5px rgb(195, 129, 8); */
+  transform: translateY(-10px) !important;
+  transition: all 0.8s ease-in-out;
+}
+.container h2{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.container .row .col .text:hover{
+  color: rgb(14, 13, 13);
+}
+.box2 .container .row .col:hover{
+  cursor: pointer;
+  background-color: rgba(152, 154, 157, 0.923);
+  color: white !important;
+}
+.sub-p , h3{
+  color: white !important;
+}
+/* .box2 .container h3,.sub-p:hover {
+  color: white !important;
+  opacity: 1.2;
+} */
+
+/* responsive */
+@media screen and (width<1000px){
+ .container .row{
+  display: block;
+ }
+ .container .row .col{
+  width: 90%;
+  margin: 20px auto;
+ }
+ .container .title{
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+ }
+ .container h2{
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+ }
+ .box2{
+  height: 1000px;
+ }
+}
+@media screen and (width<700px){
+  .container .title{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+   }
+   .container h2{
+    text-align: center;
+    width: 100%;
+    font-size: 23px;
+   }
+   .box2{
+    height: 1000px;
+   }
+}
+@media screen and (width<400px){
+  .container .title{
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+   }
+   .container h2{
+    text-align: center;
+    width: 100%;
+    font-size: 19px;
+   }
+}

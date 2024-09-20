@@ -1,0 +1,352 @@
+
+.banner{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/image1/smart-home-technology-banner-digital-screen-on-wall-vector-cartoon-illustration.jpg);
+  height:600px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:auto;
+  background-position:center;
+}
+.font0{
+  color:#F7941E;
+  cursor:pointer;
+}
+.font1{
+  color:#fff;
+  cursor:pointer;
+}
+.font2{
+  color:#fff;
+  cursor:pointer;
+}
+.font3{
+ color:#1C75BC;
+}
+span{
+  color:#1C75BC;
+  cursor:pointer;
+}
+.span1{
+  color:black;
+}
+.yellow{
+  color:#F7941E;
+}
+.span-fontt{
+  color:#F7941E;
+}
+
+
+
+/*accordion*/
+.accordion {
+  width: 600px;
+}
+
+.accordion-item {
+  margin-bottom: 5px;
+}
+
+.accordion-header {
+  background-color: #00ff22;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.accordion-content {
+  /* display: block; */
+  /* max-height: 1000px; */
+  transition: max-height 0.6s ease;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333333;
+  color: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  max-height: 0;
+  display: none;
+}
+
+.accordion-content.active {
+  display: block;
+  max-height: 1000px;
+}
+
+.accordion-item1{
+  margin-bottom: 5px;
+}
+
+.accordion-header1 {
+  background-color: #D92525;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.accordion-content1 {
+  /* display: block; */
+  /* max-height: 1000px; */
+  transition: max-height 0.6s ease;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333333;
+  color: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  max-height: 0;
+  display: none;
+}
+
+.accordion-content1.active {
+  display: block;
+  max-height: 1000px;
+}
+
+
+/*end accordion*/
+
+
+
+.box{
+  margin: 0px 10px;
+  transition: 0.5s;
+  cursor:pointer;
+
+}
+.box:hover{
+  transform: scale(1.3);
+  z-index: 2;
+  cursor:pointer;
+  
+}
+
+
+/* Thumbnail Image Styles */
+.thumbnail {
+  width: 200px;
+  cursor: pointer;
+}
+
+/* Popup Modal Styles */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Popup Content Styles */
+.popup-content {
+  
+  display:block;
+  justify-content: center;
+  margin: auto;
+  display: block;
+  max-width: 50%;
+  max-height: 80%;
+  align-items:center;
+  margin-top:150px;
+}
+
+/* Caption Styles */
+.caption {
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Close Button Styles */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*-----------------------------*/
+
+
+.lb-loader,
+.lightbox {
+  text-align: center;
+  line-height: 0;
+  position: absolute;
+  left: 0
+}
+
+body.lb-disable-scrolling {
+  overflow: hidden
+}
+
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #000;
+  filter: alpha(Opacity=80);
+  opacity: .8;
+  display: none
+}
+
+.lightbox {
+  
+  width: 100%;
+  z-index: 10000;
+  font-weight: 400;
+  outline: 0
+}
+
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 3px;
+  border: 4px solid #fff
+}
+
+.lightbox a img {
+  border: none
+}
+
+.lb-outerContainer {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #fff
+}
+
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.lb-loader {
+  top: 43%;
+  height: 25%;
+  width: 100%
+}
+
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(../images/loading.gif) no-repeat
+}
+
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.lb-container>.nav {
+  left: 0
+}
+
+.lb-nav a {
+  outline: 0;
+  background-image: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
+}
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  width: 100%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px
+}
+
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.lb-data {
+  padding: 0 4px;
+  color: #ccc
+}
+
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em
+}
+
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1em
+}
+
+.lb-data .lb-caption a {
+  color: #4ae
+}
+
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999
+}
+
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(./img/close.png) top right no-repeat;
+  text-align: right;
+  outline: 0;
+  filter: alpha(Opacity=70);
+  opacity: .7;
+  -webkit-transition: opacity .2s;
+  -moz-transition: opacity .2s;
+  -o-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: alpha(Opacity=100);
+  opacity: 1;
+}
+/*--------------------------*/
+.box2{
+  margin-top:44px;
+}
+.box3{
+  margin-top:44px;
+}
+
+.text-banner{
+  padding:30px;
+}

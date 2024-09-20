@@ -1,0 +1,254 @@
+/* heng */
+
+body{
+  padding:0;
+  margin:0;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.h3-fw {
+  color: #3387a2;
+}
+.databg-secondary{
+  background: url(/images_h/Backround-home1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.Pbg-secondary{
+  background: url(/images/B3.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-padding {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.h2-fw {
+  color: #f7941e;
+}
+
+.h2-fw:hover {
+  color: #3387a2;
+}
+
+.bannerBtn .banner-link {
+  height: 2.5em;
+  background-color: #f7941e;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #f7941e;
+}
+
+.paragraph ul li {
+  font-size: 25px;
+}
+
+.quick-link-list li a {
+  text-decoration: none;
+}
+
+.button {
+  padding: 0.5em 1.5em;
+  font-size: 2em;
+  letter-spacing: 2px;
+  background-color: #f7941e;
+  box-shadow: 2px solid #000;
+}
+
+.call {
+  color: #1c75bc;
+}
+
+.call:hover {
+  color: #f7941e;
+}
+
+.col-md-6 img {
+  width: 100%;
+}
+
+.btn {
+  background-color: #3387a2;
+  color: #f7941e;
+}
+
+.border {
+  color: #f7941e;
+}
+
+.bottom {
+  height: 200px;
+  width: 100%;
+  bottom: 50%;
+  background-color: #3387a2;
+}
+
+.text {
+  color: #f7941e;
+}
+
+.pn-fw {
+  color: #1c75bc;
+}
+
+.nav-link button {
+  size: 10px;
+}
+
+.i-fw {
+  color: #f7941e;
+}
+
+.style-text {
+  color: #1c75bc;
+}
+
+.style-footer {
+  color: #f7941e;
+}
+
+.content {
+  background-color: #3387a2;
+  margin: auto;
+  /* top: auto; */
+}
+
+.hover:hover {
+  color: #f7941e;
+}
+
+.col-6 {
+  margin: auto;
+}
+
+.text-color {
+  color: #f7941e;
+}
+
+.warp-1 {
+  height: auto;
+}
+
+.warp-2 {
+  height: auto;
+}
+
+.hero-hover h4 {
+  color: #3387a2;
+  font: bold;
+}
+
+.hero-hover:hover h4 {
+  color: #f7941e;
+}
+
+.container-B1 {
+  background: url(/images_h/Banner-1.png);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.container-Backroud {
+  background: url(/images_h/carosel_6.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.container-Backroud1 {
+  background: url(/images/vector4.jpg);
+  background-size: cover;
+  width: 100%;
+  object-fit: cover;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.col-lg-12 {
+  right: 50%;
+}
+
+.main-color {
+  background-color: #3387a2;
+  width: auto;
+  height: 500px;
+}
+
+/* ====== By Vandy ======== */
+.section-title span.line {
+  background-color: #ddd;
+  height: 1px;
+  width: 28%;
+  font-size: 28px;
+  display: inline-block;
+  position: relative;
+  margin: 21px auto 18px;
+}
+
+.line {
+  background-color: #a19c97;
+  height: 2px;
+  width: 20%;
+  font-size: 28px;
+  display: inline-block;
+  position: relative;
+  margin: 21px auto 18px;
+}
+
+.line-1 {
+  background-color: #f7941e;
+  height: 2px;
+  width: 100px;
+  font-size: 28px;
+  display: inline-block;
+  position: relative;
+  margin: 21px auto 18px;
+}
+
+.container-main span.line:before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 50px;
+  background-color: #f7941e;
+  top: -2px;
+  border-radius: 30px;
+  left: 50%;
+  margin-left: -28px;
+}
+
+

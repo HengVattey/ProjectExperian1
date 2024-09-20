@@ -1,0 +1,296 @@
+.single-page-title h3 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 30px;
+}
+
+.single-page-title h2 {
+  color: #f7941e;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+.single-page-title h1 {
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+}
+/* .btn-call {
+  padding: 20px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: none;
+  color: white;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+  margin: 5px 5px;
+  text-align: center;
+} */
+
+/* .btn-call:hover {
+  background-color: #f7941e;
+  color: #000;
+  transform: scale(1.1);
+  transition: 0.7s;
+} */
+/* .single-page-title-area .breadcrumb {
+  background-color: transparent;
+  margin: 20px 0 0;
+  position: absolute;
+  right: 5px;
+} */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+/* .btn-banner {
+    position: absolute;
+    left: 100% !important;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-weight: 520;
+}
+
+.btn-banner:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+} */
+.btn-call {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: none;
+  color: white;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+  margin: 5px 5px;
+}
+
+.btn-call:hover {
+  background-color: #f7941e;
+  border: none;
+  color: #fff;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.single-page-title span {
+  position: relative;
+  background-color: #fff;
+  height: 2px;
+  width: 55%;
+  display: inline-block;
+}
+
+.single-page-title-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: #fff;
+  opacity: 0;
+  z-index: -1;
+}
+.auto-container .row2 .caption {
+  width: 400px;
+  height: auto;
+  text-align: center;
+  line-height: 10px;
+  /* border: 2px solid; */
+}
+.auto-container .row2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.btu-esi {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  background: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+  margin: 5px 5px;
+}
+.btn-esi:hover {
+  background-color: #ff0000;
+  color: #ff0000;
+  transform: scaleX(1.04);
+}
+@media (max-width: 1200px) {
+  .single-page-title h1 {
+    font-size: 40px;
+  }
+  .single-page-title h2 {
+    font-size: 40px;
+  }
+  .single-page-title h3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 900px) {
+  .single-page-title h1 {
+    font-size: 30px;
+  }
+  .single-page-title h2 {
+    font-size: 20px;
+  }
+  .single-page-title h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .single-page-title h1 {
+    font-size: 30px;
+  }
+  .single-page-title h2 {
+    font-size: 20px;
+  }
+  .single-page-title h3 {
+    font-size: 30px;
+  }
+}
+
+.font0 {
+  text-align: center;
+
+  color: black;
+}
+.font1 {
+  color: #fa7f08;
+}
+.business-phones,
+.data,
+.cctv {
+  background-color: none;
+  color: gray;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 2px solid;
+}
+.business-phones:hover {
+  border: none;
+  background-color: #f7941e;
+  color: white;
+  outline: none;
+  border: 2px solid;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.data:hover {
+  border: none;
+  background-color: #f7941e;
+  color: white;
+  outline: none;
+  border: 2px solid;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.cctv:hover {
+  border: none;
+  background-color: #f7941e;
+  color: white;
+  outline: none;
+  border: 2px solid;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+/* Thumbnail Image Styles */
+.thumbnail {
+  width: 200px;
+  cursor: pointer;
+}
+
+/* Popup Modal Styles */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Popup Content Styles */
+.popup-content {
+  display: block;
+  justify-content: center;
+  margin: auto;
+  display: block;
+  max-width: 50%;
+  max-height: 80%;
+  align-items: center;
+  margin-top: 150px;
+}
+
+/* Caption Styles */
+.caption {
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Close Button Styles */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*  */
+
+.line {
+ 
+  height: 1px;
+  width: 28%;
+  font-size: 28px;
+  display: inline-block;
+  position: relative;
+  margin: 21px auto 18px;
+}
+.line:before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 50px;
+  background-color: #f79623;
+  top: -2px;
+  border-radius: 30px;
+  left: 50%;
+  margin-left: -28px;
+}

@@ -1,0 +1,162 @@
+/* 
+#F7941E
+
+#1c75bc
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container-banner {
+  background: rgba(0, 0, 0, 0.8) url(../img/banner1.jpg) no-repeat center;
+  background-blend-mode: darken;
+  background-size: cover;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  height: 50vh;
+}
+.content {
+  margin-top: 20px;
+  width: 90%;
+  padding: 30px;
+  color: #fff;
+}
+.h2-second{
+  font-size: 10px;
+}
+.content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  max-width: 720px;
+  text-transform: capitalize;
+}
+.content span {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #f7941e;
+}
+/* .content p {
+  text-transform: capitalize;
+  line-height: 1.5;
+  font-size: 30px;
+  animation: fado-down 1s;
+} */
+
+.service-btn {
+  margin-top: 10px;
+  border: none;
+  width: 290px;
+  height: 50px;
+  font-size: 20px;
+  padding: 3px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #1c75bc;
+  transition: all 0.3s ease;
+}
+.service-btn:hover {
+  opacity: 0.9;
+}
+
+.section-1 {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.container-banner2 {
+  width: 100%;
+  padding: 5px;
+}
+.content2 {
+  text-align: center;
+}
+
+.container-text {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container-text h2 {
+  width: 900px;
+  font-size: 40px;
+  text-transform: capitalize;
+  animation: fado-in 0.9s;
+}
+.container-text h2 span {
+  text-transform: uppercase;
+  color: #f7941e;
+}
+
+.container-text img {
+  width: 500px;
+}
+
+@keyframes fado-down {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+}
+@keyframes fado-in {
+  0% {
+    opacity: 0;
+    transform: translateX(0px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(30px) scale(1);
+  }
+}
+@media (max-width: 1400px) {
+  .content h1 {
+    font-size: 40px;
+  }
+  .content p {
+    font-size: 30px;
+  }
+}
+@media (max-width: 920px) {
+  .content h1 {
+    font-size: 35px;
+  }
+  .content span {
+    font-size: 20px;
+  }
+  .content p {
+    font-size: 20px;
+  }
+  .container-text h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 720px) {
+  .content {
+    width: 100%;
+    align-items: center;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  .content span {
+    font-size: 15px;
+  }
+  .content p {
+    font-size: 18px;
+  }
+  .container-text h2 {
+    font-size: 20px;
+  }
+}

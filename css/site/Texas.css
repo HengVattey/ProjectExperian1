@@ -1,0 +1,120 @@
+img-overlay
+
+/* List nav dropdown style*/
+
+.dropdown:hover .dropdown-menu-right{
+  display: block;
+  position: absolute;
+  width: 16em;
+  top: 0;
+  left: 200px;
+  background-color: transparent;
+}
+.dropdown-menu-1 li a{
+  text-decoration: none;
+}
+
+/*Dropdown Nested navigation*/
+
+.TexasDropdownRight{
+ display: none;
+}
+.TexarkanaDropdown{
+  display: none;
+}
+
+
+.mainmenu-area .navbar-nav li.dropdown ul.dropdown-menu li:hover .TexasDropdownRight{
+  position: absolute;
+  display: block;
+  left: 13em;
+  width: 100%;
+  top: 0;
+  list-style-type: none;
+}
+.mainmenu-area .navbar-nav li.dropdown ul.dropdown-menu .TexasDropdownRight li:hover .TexarkanaDropdown{
+  position: absolute;
+  display: block;
+  left: 11em;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  height: auto;
+}
+
+.mainmenu-area .navbar-nav li.dropdown ul.dropdown-menu li:hover .ServicesDropdown{
+  position: absolute;
+  display: block;
+  left: 13em;
+  width: 100%;
+  top: 0;
+  list-style-type: none;
+}
+
+.ServicesDropdown{
+  display: none;
+}
+.mainmenu-area .navbar-nav li.dropdown ul.dropdown-menu .ServicesDropdown li:hover .TelecomDropdown{
+  position: absolute;
+  display: block;
+  left: 11em;
+  width: 100%;
+  top: 0;
+  list-style-type: none;
+}
+.TelecomDropdown{
+  display: none;
+}
+
+.HomeDropdownRight{
+  display: none;
+}
+
+.mainmenu-area .navbar-nav li.dropdown ul.dropdown-menu li:hover .HomeDropdownRight{
+  position: absolute;
+  display: block;
+  left: 13em;
+  width: 100%;
+  top: 0;
+  list-style-type: none;
+}
+.mainmenu-area .navbar-nav li.dropdown ul.dropdown-menu li:hover .PortlandDropdownRight{
+  position: absolute;
+  display: block;
+  left: 13em;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  list-style-type: none;
+}
+.PortlandDropdownRight{
+  display: none;
+}
+
+.mainmenu-area .navbar-nav li.dropdown ul.dropdown-menu .ServicesDropdown li:hover .PBX-VOIPdropdown{
+  position: absolute;
+  display: block;
+  left: 11em;
+  width: 100%;
+  top: 0;
+  list-style-type: none;
+}
+
+.PBX-VOIPdropdown{
+  display: none;
+}
+.ESIDropdown{
+  display: none;
+}
+
+.mainmenu-area .navbar-nav li.dropdown ul.dropdown-menu .ServicesDropdown .PBX-VOIPdropdown li:hover .ESIDropdown{
+  position: absolute;
+  display: block;
+  left: 8.7em;
+  width: 100%;
+  top: 0;
+  list-style-type: none;
+}
+.nav-pills .nav-link.active{
+  background-color: #F7941E !important;
+}

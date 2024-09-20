@@ -1,0 +1,30 @@
+/*banner_section*/
+.banner_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.banner_section .img-box img {
+    width: 100%;
+}
+.heading{
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0 auto .35em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+  
+/*responsive banner_section*/
+
+@media (max-width: 767px) {
+    .banner_section .img-box {
+        margin-bottom: 45px;
+    }
+    .heading{
+        font-size: 30px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,428 @@
+.re{
+background-image: url("/images/147847517.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.text{
+  padding: 20%;
+  
+}
+
+
+#myImg {
+  
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  color: #f1f1f1;
+  font-size: 70px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+.button {
+  border-radius: 4px;
+  background-color: #1C75BC;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+@media screen  and (width<400px) {
+  .close {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+}
+@media screen  and (width<500px) {
+  .close {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+}
+@media screen  and (width<600px) {
+  .close {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+}
+@media screen  and (width<700px) {
+  .close {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+}
+@media screen  and (width<800px) {
+  .close {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+}
+@media screen  and (width<900px) {
+  .close {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+}
+@media screen  and (width<1000px) {
+  .close {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+}
+@media screen  and (width<1100px) {
+  .close {
+    position: absolute;
+    top: 3%;
+    right: 10%;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+}
+@media screen  and (width<1200px) {
+  .close {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+}
+@media screen  and (width<1300px) {
+  .close {
+    position: absolute;
+    top: 4%;
+    right: 10%;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+}
+
+
+.about-sec-inner-btn {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #F7941E;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 1px transparent;
+  position: relative;
+  transition-property: color;
+  transition-duration: 0.55s;
+  text-decoration: none;
+}
+.about-sec-inner-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: #1C75BC;
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+.about-sec-inner-btn:hover:before, .about-sec-inner-btn:focus:before, .about-sec-inner-btn:active::before {
+  transform: scaleY(1);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/* ==> Css card  */
+
+/* net2_card_sextion*/
+.net2_card_section {
+  text-align: center;
+}
+
+.net2_card_section .heading_container {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.net2_card_section .net2_card_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 35px 0;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.net2_card_section .net2_card_container .box {
+  margin: 25px 1%;
+  -ms-flex-preferred-size: 31%;
+  flex-basis: 31%;
+  padding: 35px 25px 25px;
+  border-radius: 15px;
+  border-top: 15px solid transparent;
+  overflow: hidden;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  position: relative;
+  box-shadow: 0px 3px 25px 3px #ddd;
+  overflow: hidden;
+}
+
+.net2_card_section .net2_card_container .box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 125px;
+}
+
+.net2_card_section .net2_card_container .box .img-box img {
+  width: 90px;
+}
+
+.net2_card_section .net2_card_container .box .detail-box {
+  margin-top: 25px;
+  color: #555;
+}
+
+.net2_card_section .net2_card_container .box .detail-box h5 {
+  color: #F7941E;
+  font-weight: 600;
+  position: relative;
+}
+.net2_card_section .net2_card_container .box{
+  /* border-top: 15px solid #F7941E; */
+}
+
+.net2_card_section .net2_card_container .box:hover, .net2_card_section .net2_card_container .box.active {
+  /* border-top: 15px solid #1C75BC; */
+}
+
+
+
+
+
+/* responsive net2_card_section*/
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+
+  .net2_card_section .net2_card_container .box {
+      -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .net2_card_section .net2_card_container .box {
+      flex-basis: 98%;
+  }
+}
+
+@media (min-width: 1200px) {
+.container {
+  max-width: 1170px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

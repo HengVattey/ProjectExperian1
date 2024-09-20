@@ -1,0 +1,84 @@
+/* ===> Style from tey cute  */
+
+
+.or{
+color: #000 !important;
+
+}
+.coca p:hover{
+
+color: #F7941E;
+
+}
+.a .line {
+
+width: 57%;
+height: 3px;
+background-color: #F7941E;
+margin-left: 4.6em;
+margin-bottom: 1rem;
+}
+.b .line {
+
+  width: 41.9%;
+  height: 3px;
+  background-color: #F7941E;
+  margin-left: 4.6em;
+  margin-bottom: 1rem;
+  }
+  .c .line {
+
+    width: 52.2%;
+    height: 3px;
+    background-color: #F7941E;
+    margin-left: 4.6em;
+    margin-bottom: 1rem;
+    }
+    .d .line {
+
+      width: 4.2%;
+      height: 2px;
+      background-color: #1C75BC;
+      margin-left: 47%;
+      margin-bottom: 1rem;
+      }
+.teycute {
+  padding-left: 2.6em;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #F7941E;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+input[type=submit]:hover {
+  background-color: #1C75BC;
+}
+
+.ok{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.pow img{
+
+width: 50%;
+
+
+}

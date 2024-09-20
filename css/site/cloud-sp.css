@@ -1,0 +1,335 @@
+/* Importing Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+
+/* banner Section */
+.banner_section {
+    height: 628px;
+    vertical-align: middle;
+    background-image: url(/images/phone.jpg) ;
+    background-repeat: no-repeat ;
+    background-position: 50% 50% ;
+    background-size: 100% ;
+    background-color: transparent ;
+    background-size: cover;
+}
+
+.banner_container {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 4em 1.5em;
+    box-sizing: border-box;
+}
+
+.banner_container .text_section h2 {
+    color: #F7941E;
+    text-align:left;
+    font-weight: bold;
+    margin: 0 auto .35em;
+    text-transform: uppercase;
+}
+.banner_container .text_section p {
+    font-size: 42px;
+    font-weight: 400;
+    margin: 24px 0 40px;
+    max-width: 70%;
+    color: #1C75BC;
+}
+
+.banner_container .banner_section_img {
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:0px;
+    margin-right:0px;
+    text-align:left
+}
+.banner_container .image_section {
+    max-width: 45%;
+}
+
+.banner_container .image_section img {
+    width: 100%;
+}
+
+/* new */
+
+.cloud_section .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.cloud_section .img_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.cloud_section .img_container .img-box {
+    border: 5px solid #1C75BC;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.cloud_section .img_container .img-box.b1 {
+    width: 70%;
+}
+
+.cloud_section .img_container .img-box.b2 {
+    width: 50%;
+    margin-left: auto;
+    margin-top: -12%;
+}
+
+.cloud_section .img_container .img-box img {
+    width: 100%;
+}
+
+.cloud_section .detail-box {
+    margin-right: 15%;
+}
+
+.cloud_section .detail-box p {
+    margin-top: 25px;
+}
+
+.cloud_section .detail-box a {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: #4b208c;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 25px 0 45px 0;
+}
+
+.cloud_section .detail-box a:hover {
+    background-color: #5625a1;
+}
+
+
+
+
+/* text_section*/
+.text_section h2{
+    text-align: center; 
+    color: #a85f2e; 
+    font-size: 30px; 
+    padding: 35px;
+}
+
+/*main section*/
+.p-100 {
+    padding: clamp(64px, 5.208vw, 200px) 0;
+}
+.Picture_p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.Picture {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    margin: 10px;
+    /* background-color: 	#c39762;
+    border: 1px solid #8ab0d2;
+    border-radius: 8px; */
+    text-align: center;
+    padding: 20px;
+}
+.Picture .img-block {
+    /* border-radius: 10px; */
+    overflow: hidden;
+    /* margin-bottom: 16px; */
+}
+.Picture:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.6s linear 0s;
+    transition: all 0.6s linear 0s;
+}
+.Picture img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.pic_container{
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 4em 1.5em;
+    box-sizing: border-box;
+}
+
+
+/*phone 2 pic*/
+.Picture_p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.pic_phone {
+    flex: 1;
+    min-width: 250px;
+    /* margin: 10px;
+    background-color: #c1e8f7;
+    border: 1px solid #8ab0d2;
+    border-radius: 8px; */
+    text-align: center;
+    padding: 20px;
+}
+.pic_phone .img-block {
+    /* border-radius: 10px; */
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.pic_phone  img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* Responsive Media for max-width: 1024px */
+
+@media screen and (max-width: 1024px) {
+    .banner_container {
+        flex-direction: column-reverse;
+        align-items: left;
+        padding-bottom: 32px;
+    }
+    .banner_container .text_section h2{
+        text-align: left;
+    }
+
+    .banner_container .image_section {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .banner_container .image_section img {
+        max-width: 90%;
+        align-items: center;
+    }
+
+    .banner_container .text_section {
+        max-width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .banner_container .text_section p {
+        max-width: 100%;
+    }
+}
+
+/* Responsive Media for max-width: 576px */
+@media screen and (max-width: 576px) {
+    .banner_container {
+        justify-content: space-evenly;
+    }
+
+    .banner_container .text_section h2 {
+        font-size: 45px;
+        text-align: left;
+    }
+
+    .banner_container .banner_section_img img {
+        max-width: 100%;
+    }
+
+    .banner_container .text_section p {
+        font-size: 30px;
+        text-align: left;
+    }
+}
+/* Responsive Media​​​​​ for max-width: 414px */
+@media screen and (max-width: 414px){
+    .banner_container {
+        justify-content: space-evenly;
+    }
+
+    .banner_container .text_section h2 {
+        font-size: 35px;
+        text-align: left;
+    }
+
+    .banner_container .banner_section_img img {
+        max-width: 100%;
+    }
+
+    .banner_container .text_section p {
+        font-size: 30px;
+        text-align: left;
+    }
+}
+
+/* Responsive Media​​​​​ for max-width: 375px */
+@media screen and (max-width: 375px) {
+    .banner_container {
+        padding-bottom: 32px;
+    }
+
+    .banner_container .text_section h2 {
+        font-size: 35px;
+        text-align: left;
+    }
+
+    .banner_container .banner_section_img img {
+        max-width: 100%;
+    }
+
+    .banner_container .text_section p {
+        font-size: 30px;
+        text-align: left;
+    }
+}
+
+
+
+
+/* new RVS*/
+@media (max-width: 992px) {
+    .cloud_section .img-box {
+        margin: 0 5%;
+    }
+
+    .cloud_section .detail-box {
+        margin-right: 5%;
+    }
+
+    .cloud_section .img_container .img-box.b2 {
+        margin-top: -5%;
+    }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}

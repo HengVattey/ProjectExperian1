@@ -1,0 +1,91 @@
+.mainmenu-area .navbar-nav li.active::before,
+.mainmenu-area .navbar-nav li::before {
+  position: absolute;
+  content: '';
+  height: 8px;
+  width: 29px;
+  background: #1C75BC;
+  top: -4px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.mainmenu-area .navbar-nav li.active::before,
+.mainmenu-area .navbar-nav li:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 11. START PROMO STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+#promo-section {
+  height: 100%;
+}
+
+#promo-section-2 {
+  overflow: hidden;
+}
+
+#promo-section .section-title .dec::after {
+  margin: 11px 0;
+}
+
+.contact-form {
+  margin-top: 45px;
+}
+
+.contact-form .form-control {
+  margin-bottom: 30px;
+  font-weight: 400;
+  line-height: 2.3;
+  color: #fff;
+  background-color: transparent;
+}
+
+.contact-form .form-control::placeholder {
+  color: #fff;
+}
+
+.contact-form .btnContact {
+  border: 1px solid #fff;
+
+  padding: 6px 30px;
+  background: #fff;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.contact-form .btnContact:hover {
+  background-color: transparent;
+  color: #fff;
+  border-color: #ddd;
+}
+
+.promo-fix-img {
+  position: relative;
+}
+
+.promo-fix-img img {
+  position: absolute;
+  top: -101px;
+}
+
+#promo-section .section-title {
+  margin-top: -30px;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 11. END PROMO STYLE
+* ----------------------------------------------------------------------------------------
+*/

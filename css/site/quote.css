@@ -1,0 +1,30 @@
+.main_section{
+    height: auto;
+    background-color: #fbfcfc;
+    background-image: none;
+}
+.wsite-multicol input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    background-color:rgb(250, 243, 234);
+    outline: none;
+    color: #101010;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.wsite-multicol .btn {
+    display: inline-block;
+    padding: 12px 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    border-radius: 30px;
+    margin-top: 35px;
+}
+
+

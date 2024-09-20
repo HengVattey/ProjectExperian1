@@ -1,0 +1,45 @@
+/* ===> Style from tey cute  */
+p{
+  font-weight: bold;
+  transition: all 0.8s;
+  color:  #1C75BC;
+}
+.or{
+color: #000 !important;
+
+}
+p:hover{
+
+color: #F7941E;
+
+}
+.a .line {
+
+width: 57%;
+height: 3px;
+background-color: #F7941E;
+margin-left: 2em;
+margin-bottom: 1rem;
+}
+.b .line {
+
+  width: 41.9%;
+  height: 3px;
+  background-color: #F7941E;
+  margin-left: 2em;
+  margin-bottom: 1rem;
+  }
+  .c .line {
+
+    width: 52.2%;
+    height: 3px;
+    background-color: #F7941E;
+    margin-left: 2em;
+    margin-bottom: 1rem;
+    }
+h3 {
+  padding-left: 1em;
+}
+p{
+  padding-left: 2em;
+}
